@@ -20,6 +20,8 @@
     table { 
         width: 500px;
         border-collapse: collapse;
+        position: relative;
+
     }
     td, th {
         border: 1px solid black;
@@ -29,6 +31,13 @@
     thead,  tfoot{
         background-color:#383838;
         color: white;
+    }
+
+    thead >tr >th{
+        /*cola o cabeçalho da tabela na rolagem*/
+        position: sticky;
+        top: -1px;
+        background-color:#383838 ;
     }
     tbody > tr:nth-child(2n) {
         background-color: lightgrey;

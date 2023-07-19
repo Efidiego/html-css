@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+    </style>
+    <!--
+        Get = Qunado os dados não forem sensíveis com data de nascimento e etc.
+        "só 3000 bytes/caracteres."
+        Post = Quando dados forem mais sigilosos como cartão de crédito, cpf e etc.
+        "Mais de 3000 bytes/caracteres e arquivos como fotos" 
+    -->
+</head>
+<body>
+    <h1>Meu Formulário</h1>
+    <form action= "cadastro.php" method="get" autocomplete="off">
+        
+        <p> <label for="inome">Nome: </label>
+            <input type="text" name="nome" id="inome">
+        </p>
+        <p> <label for="isobrenome">Sobrenome: </label>
+            <input type="text" name="sobrenome" id="isobrenome">
+        </p>
+        <p> 
+            <input type ="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+</html>

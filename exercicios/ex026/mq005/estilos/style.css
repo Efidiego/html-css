@@ -36,11 +36,12 @@ span#burguer:hover{
 
 menu {
     display: none;
-    text-align: center;
+    text-align: left;
 }
 
 menu > ul {
     list-style-type: none;
+    
 }
 
 menu > ul > li > a {
@@ -59,8 +60,8 @@ menu > ul > li > a:hover {
 main {
     width:90vw;
     background-color: white;
+    margin: auto;
     margin-top: 10px;
-    margin: 10px;
     padding: 10px;
     border-radius: 10px;
 }
@@ -70,7 +71,7 @@ article > h2 {
 
 article > p {
     text-align: justify;
-    margin-bottom: 2 0px;
+    margin-bottom: 20px;
     text-indent: 20px;
 
 }
